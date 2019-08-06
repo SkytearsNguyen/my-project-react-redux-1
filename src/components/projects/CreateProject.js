@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 class SignUp extends Component {
   state = {
     title:'',
@@ -21,7 +22,7 @@ class SignUp extends Component {
   render() {
     return (
       <div className='container'>
-          <form  onSubmit={this.handleSubmit} className='white' style={{marginTop: '1rem'}}>
+          <form  onSubmit={this.handleSubmit} className='white'>
               <h2 className='grey-text text-darken-3'>Create new project</h2>
               <div className='input-field'>
                   <label htmlFor='title' >Title</label>

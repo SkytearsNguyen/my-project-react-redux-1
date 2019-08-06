@@ -7,6 +7,8 @@ import ProjectDetails from './components/projects/ProjectDetails'
 import SignIn from './components/auth/SignIn'
 import SignUp from './components/auth/SignUp'
 import CreateProject from './components/projects/CreateProject'
+import './components/style.css'
+
 
 class App extends Component {
 
